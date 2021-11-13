@@ -1,24 +1,27 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 
 export default function Dictionary() {
-    let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState({});
 
-    function handleResponse(response) {
-        console.log(response.data[0]);
-    }
+  function handleResponse(response) {
+    console.log(response.data[0]);
+    setResults(response.data);
+  }
 
-    function search(event) {
-        event.preventDefault();
+  function search(event) {
+    event.preventDefault();
 
-    // documentation: https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
+    // documentation: https://dictionaryapi.dev/e
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
-    }
-    function handleKeywordChange(event) {
-        setKeyword(event.target.value);
-    }
+  }
+
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
+  }
 
     return (
   <div className="Dictionary">
@@ -27,8 +30,9 @@ export default function Dictionary() {
     <form onSubmit={search}>
     <input type="search" onChange={handleKeywordChange} className="input-window col-9" id="search-word" placeholder="Search a word"></input>
     </form>
+    {keyword}
+    <Results results={results} />
   </div>
-  <button type="submit" className="btn btn-primary col-3">Submit</button>
 </div>
     </div>
     );
