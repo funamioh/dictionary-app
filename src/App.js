@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './prototype-logo.png';
+import logo from './spell-check-solid.svg';
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
+        <h1><img src={logo} className="App-logo" alt="logo" />
           Dictionary
         </h1>
       </header>
