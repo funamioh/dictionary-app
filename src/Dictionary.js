@@ -30,7 +30,6 @@ export default function Dictionary() {
     <form onSubmit={search}>
     <input type="search" onChange={handleKeywordChange} className="input-window col-9" id="search-word" placeholder="Search a word"></input>
     </form>
-    {keyword}
     <Results results={results} />
   </div>
 </div>
