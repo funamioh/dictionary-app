@@ -15,7 +15,7 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="text-center App-footer">This project was coded by Miho Funayama and is <a href="https://github.com/funamioh/dictionary-project">open-sourced on GitHub</a> and <a href="https://condescending-kepler-1383cc.netlify.app/">hosted by Netlify</a>.</footer>
+      <footer className="text-center App-footer">This project was coded by Miho Funayama and is <a href="https://github.com/funamioh/dictionary-app">open-sourced on GitHub</a> and <a href="https://serene-goldwasser-29304a.netlify.app">hosted by Netlify</a>.</footer>
       </div>
   );
 }
