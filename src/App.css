@@ -1,6 +1,8 @@
 .App {
   max-width: 800px;
   padding: 20px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .App-logo {
