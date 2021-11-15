@@ -1,4 +1,7 @@
 .Speaker-logo {
+  border: solid 1px #7f7c82;
+  padding: 23px 20px;
+  border-radius: 65px;
   width: 50px;
 }
 .Speaker-logo:hover {
