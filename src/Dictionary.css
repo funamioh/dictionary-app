@@ -1,5 +1,18 @@
+.Dictionary section {
+  background-color: #95dac1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 6px 8px rgba(0, 0, 30, 0.6);
+  margin: 10px;
+}
+
 .input-window {
   padding: 3px 20px;
-  margin: 20px 0;
+  margin: 20px 0 0;
   font-size: 20px;
+}
+
+.Dictionary .hint {
+  font-size: 14px;
+  margin-top: 5px;
 }

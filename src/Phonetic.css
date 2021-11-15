@@ -1,10 +1,10 @@
 .Speaker-logo {
+  background-color: #fff;
   border: solid 1px #7f7c82;
-  padding: 23px 20px;
+  padding: 18px 15px;
   border-radius: 65px;
-  width: 50px;
+  width: 30px;
 }
 .Speaker-logo:hover {
-  width: 50px;
-  transform: scale(0.98);
+  transform: scale(0.96);
 }
