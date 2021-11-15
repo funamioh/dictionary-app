@@ -1,0 +1,7 @@
+.Speaker-logo {
+  width: 50px;
+}
+.Speaker-logo:hover {
+  width: 50px;
+  transform: scale(0.98);
+}
