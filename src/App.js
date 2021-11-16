@@ -12,7 +12,7 @@ function App() {
         </h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="text-center App-footer">This project was coded by Miho Funayama and is <a href="https://github.com/funamioh/dictionary-app">open-sourced on GitHub</a> and <a href="https://serene-goldwasser-29304a.netlify.app">hosted by Netlify</a>.</footer>
       </div>
