@@ -9,20 +9,16 @@ body {
   line-height: 1.4;
 }
 
-.App-logo {
-  width: 130px;
-}
-
 .App-link {
   color: #61dafb;
 }
 .App-logo {
-  width: 200px;
-  background: -webkit-linear-gradient(
-    0deg,
-    #9caeff,
-    #7effe7
-  ); /* set gradation for background*/
-  -webkit-background-clip: text; /* hollow out with text*/
-  -webkit-text-fill-color: transparent; /* show background for hollowed out part*/
+  width: 120px;
+  color: orange;
+}
+
+.App-footer {
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
 }
