@@ -13,14 +13,15 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
-  function search() {
+  function search(event) {
+  
     // documentation: https://dictionaryapi.dev/e
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
   function handleSubmit(event) {
-    event.preventdefault();
+    event.preventDefault();
     search();
   }
 
@@ -41,8 +42,7 @@ export default function Dictionary(props) {
     <section>
     <h1>What do you want to look up?</h1>
     <form onSubmit={handleSubmit}>
-    <input type="search" onChange={handleKeywordChange} 
-    defaultValue={props.defaultKeyword} className="input-window col-9" id="search-word" placeholder="Search a word"></input>
+    <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} className="input-window col-9" id="search-word" placeholder="Search a word"></input>
     </form>
     <div className="hint">
       suggested words: honesty, kindness, beautiful...
@@ -54,6 +54,7 @@ export default function Dictionary(props) {
     </div>
     );
 } else {
-  load();
-}
+    load();
+    return "Loading";
+  }
 }
