@@ -1,6 +1,6 @@
 import React from "react";
 import "./Photos.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Photos(props) {
   if (props.photos) {

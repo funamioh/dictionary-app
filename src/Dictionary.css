@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&display=swap");
+
 .Dictionary h1 {
+  font-family: "Exo 2", sans-serif;
   font-size: 22px;
   margin-top: 0;
   margin-bottom: 15px;
@@ -21,4 +24,8 @@
 .Dictionary .hint {
   font-size: 14px;
   margin-top: 5px;
+}
+
+body {
+  background-color: #f8d3ff;
 }
