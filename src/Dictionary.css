@@ -1,14 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&display=swap");
-
 .Dictionary h1 {
-  font-family: "Exo 2", sans-serif;
+  font-family: inherit;
   font-size: 22px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 .Dictionary section {
-  background-color: #fff;
+  background-color: #e6dcff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 8px 6px 8px rgba(0, 0, 30, 0.6);
@@ -24,8 +22,4 @@
 .Dictionary .hint {
   font-size: 14px;
   margin-top: 5px;
-}
-
-body {
-  background-color: #f8dbf1;
 }

@@ -1,6 +1,6 @@
 .Speaker-logo {
   background-color: #fff;
-  color: #67cfa9;
+  color: #ff9de8;
   border: solid 1px #7f7c82;
   padding: 18px 15px;
   border-radius: 65px;
@@ -9,7 +9,7 @@
 }
 .Speaker-logo:hover {
   transform: scale(0.96);
-  background-color: #67cfa9;
+  background-color: #ff9de8;
   color: #fff;
 }
 
