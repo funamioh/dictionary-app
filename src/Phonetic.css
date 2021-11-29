@@ -1,16 +1,16 @@
 .phonetic-button {
   text-decoration: none;
   background-color: #fff;
-  color: #ce99ff;
+  color: #ffb1b1;
   border: solid 1px #7f7c82;
   padding: 15px 22px;
   margin: 20px 20px;
-  border-radius: 65px;
+  border-radius: 30px;
   transition: all 15ms;
 }
 .phonetic-button:hover {
   transform: scale(0.98);
-  background-color: #ce99ff;
+  background-color: #ffb1b1;
   color: #fff;
 }
 

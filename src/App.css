@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .App {
   max-width: 800px;
@@ -8,9 +8,10 @@
   line-height: 1.4;
 }
 .App h1 {
-  font-family: "Road Rage", cursive;
+  font-family: "Lobster Two", cursive;
   font-size: 50px;
   font-weight: 800;
+  text-align: center;
 }
 .App-logo {
   width: 120px;
@@ -26,5 +27,5 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff1fa;
 }
