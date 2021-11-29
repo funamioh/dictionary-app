@@ -1,18 +1,20 @@
-.Speaker-logo {
+.phonetic-button {
+  text-decoration: none;
   background-color: #fff;
-  color: #ff9de8;
+  color: #ce99ff;
   border: solid 1px #7f7c82;
-  padding: 18px 15px;
+  padding: 15px 22px;
+  margin: 20px 20px;
   border-radius: 65px;
   transition: all 15ms;
-  width: 30px;
 }
-.Speaker-logo:hover {
-  transform: scale(0.96);
-  background-color: #ff9de8;
+.phonetic-button:hover {
+  transform: scale(0.98);
+  background-color: #ce99ff;
   color: #fff;
 }
 
 .Phonetic .text {
   opacity: 0.8;
+  margin: 20px;
 }
